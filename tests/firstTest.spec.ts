@@ -8,6 +8,7 @@ test.describe('First test suite', () => {
 
     test('my first test', async ({ page }) => {
         await page.getByText('Form Layouts').click();
+        await page.getByText('Basic Form').click();
     });
 
 });
