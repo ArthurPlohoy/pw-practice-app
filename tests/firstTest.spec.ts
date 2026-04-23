@@ -29,6 +29,9 @@ test.describe('First test suite', () => {
 
         // by xpath (Not recommended)
         page.locator('//input[@id="inputEmail1"]')
+
+        // by text content
+        page.locator('text=Email')
     });
 
 });
